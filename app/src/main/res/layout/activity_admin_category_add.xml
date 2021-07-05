@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.activity.AdminCategoryAdd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add A Category"
+            android:layout_marginTop="40dp"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/andika"
+            android:textColor="@android:color/black"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/cat_name"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/new_search_bg"
+            android:paddingStart="30dp"
+            android:maxLength="12"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginRight="20dp"
+            android:hint="Category Name"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thumbnail"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/pick_pic"
+                android:background="@drawable/ic_camera_alt_black_24dp"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/selected_pic"
+                android:layout_marginStart="80dp"
+                android:src="@drawable/ic_user_pic"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Upload"
+            android:background="#42A5F5"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

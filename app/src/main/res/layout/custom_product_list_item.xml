@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginTop="5dp"
+    app:cardMaxElevation="2dp"
+    app:cardCornerRadius="2dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:id="@+id/image_product"
+            />
+        <TextView
+            android:id="@+id/name_product"
+            android:layout_weight="0.15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="cat Name"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            >
+            <TextView
+                android:id="@+id/productmrplabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="MRP."
+                android:textColor="@android:color/darker_gray"
+                />
+            <TextView
+                android:id="@+id/productmrpprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/productmrplabel"
+                android:layout_marginLeft="10dp"
+                android:text="9999"
+                android:textColor="@android:color/darker_gray"
+                />
+            <TextView
+                android:id="@+id/productpricelabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Rs."
+                android:textColor="@android:color/black"
+                android:layout_below="@id/productmrpprice"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:id="@+id/productprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/productpricelabel"
+                android:text="9999"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/productmrpprice"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+           <!-- <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+
+                android:src="@drawable/ic_favorite_black_24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:id="@+id/wish"
+                />-->
+        </RelativeLayout>
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:elevation="10dp"
+            android:text="ADD TO CART"></Button>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

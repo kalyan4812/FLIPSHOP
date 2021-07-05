@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Choose Your Location"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="textMultiLine"
+        android:text="Select a delivery location to see product \n availability and delivery options"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/pincode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/buttonbg2"
+            android:ellipsize="end"
+            android:hint="@string/enter_your_address"
+            android:inputType="textMultiLine"
+            android:maxWidth="200dp"
+            android:maxLines="4"
+            android:maxLength="300"
+            android:padding="15dp"
+            android:singleLine="false"
+            android:textColorHint="@android:color/black" />
+
+        <Button
+            android:id="@+id/apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/buttonbg"
+
+            android:padding="15dp"
+            android:text="APPLY" />
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/gmaplocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/buttonbg2"
+        android:drawableStart="@drawable/ic_my_location_black_24dp"
+        android:drawablePadding="5dp"
+        android:padding="15dp"
+        android:text="USE MY CURRENT LOCATION"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

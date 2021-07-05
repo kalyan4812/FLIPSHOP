@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "923311461962",
+    "firebase_url": "https://flipshop-f0fd3.firebaseio.com",
+    "project_id": "flipshop-f0fd3",
+    "storage_bucket": "flipshop-f0fd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923311461962:android:bb0bcdf052d8445e1e38b3",
+        "android_client_info": {
+          "package_name": "com.example.flipshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923311461962-4rikf9ka5i7qo2r2kdcjvfe4ct3j1glt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flipshop",
+            "certificate_hash": "f234be0de36441e1a598e182b0ffb95683db6b9e"
+          }
+        },
+        {
+          "client_id": "923311461962-q8qgoq3ujvshe7821muc5i474te6f9te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrkqpzd5wE0JgRZPs1EI_ffNpXj8cwvoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923311461962-q8qgoq3ujvshe7821muc5i474te6f9te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

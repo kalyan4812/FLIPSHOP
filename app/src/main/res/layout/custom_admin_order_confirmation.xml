@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:elevation="7dp"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/productImg"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/productName"
+            android:text="Product Name"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/customerMail"
+            android:text="CUSTOMER MAIL"
+            android:textSize="13sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginTop="10sp"
+
+            android:layout_height="wrap_content"
+            android:text="ACCEPT OREDER"
+            android:background="@drawable/buttonbg"
+            android:textStyle="bold"
+            android:id="@+id/accept"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginTop="10sp"
+
+            android:layout_height="wrap_content"
+            android:text="REJECT ORDER"
+            android:background="@drawable/buttonbg"
+            android:textStyle="bold"
+            android:id="@+id/reject"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginTop="10sp"
+
+            android:layout_height="wrap_content"
+            android:text="MORE DETAILS"
+            android:background="@drawable/buttonbg"
+            android:textStyle="bold"
+            android:id="@+id/moredetails"/>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
