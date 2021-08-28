@@ -15,6 +15,7 @@ FLIPSHOP is an e-commerce android application .It uses Firebase as backend to st
  - [Picasso](https://github.com/square/picasso)
  - [Firebase UI](https://github.com/firebase/FirebaseUI-Android)
  - [Material Design](https://material.io/develop/android)
+ - [Navigation component](https://developer.android.com/guide/navigation)
  
 
  
