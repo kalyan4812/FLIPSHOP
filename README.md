@@ -27,13 +27,13 @@ The app is developed using native android(Java).App follows clean code strategy.
 * You can view the saved articles on the saved page,you can delete your saved articles anytime by swiping.
 * Along with recommended articles ,you can also search for articles you want on the search page and you can read them.
 
+
 <table>
         <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/131213769-dc8d57d0-0ab4-48ea-9891-697457925a73.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/131213804-4d994c66-6d86-4c73-b74f-561669516e73.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/131213818-33f1e591-cd2f-4b10-be79-9df9fea662e0.png" ></td>
         </tr>
-  
      <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/131213861-ab6f803a-542a-44a5-892c-13a910bb8862.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/131213906-7f774fa4-359b-498c-8490-32e070e323f3.png" ></td>
