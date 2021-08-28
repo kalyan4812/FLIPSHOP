@@ -16,7 +16,7 @@ FLIPSHOP is an e-commerce android application .It uses Firebase as backend to st
  - [Firebase UI](https://github.com/firebase/FirebaseUI-Android)
  - [Material Design](https://material.io/develop/android)
  
-![screenshot_18](https://user-images.githubusercontent.com/68738102/131213752-53af20e1-505d-432b-8dee-ffde539e1dc0.png)
+
  
 
 The app is developed using native android(Java).App follows clean code strategy.
@@ -44,7 +44,7 @@ The app is developed using native android(Java).App follows clean code strategy.
 
 
 
-## Maintainers and Developers![screenshot_17](https://user-images.githubusercontent.com/68738102/131213751-667b26ed-33e5-4839-8fc2-25ebda14ed97.png)
+## Maintainers and Developers
 
 This repository is owned and maintained by 
  * [Sai Kalyan](https://github.com/kalyan4812)
