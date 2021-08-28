@@ -21,7 +21,7 @@ FLIPSHOP is an e-commerce android application .It uses Firebase as backend to st
 
 The app is developed using native android(Java).App follows clean code strategy.
 
-### App ScreenShots 
+### App ScreenShots Of Client side.
 
 * Authentication can be done both using google and email.
 * Home screen slider shows new offers ,adds.
@@ -60,8 +60,33 @@ The app is developed using native android(Java).App follows clean code strategy.
         </tr>
 </table>
 
+* Other screens.
 
+<table>
+        <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214696-1c5acec4-9660-48fa-9f02-79b9d3546c47.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214668-642e7b34-598c-4269-8f72-208538f446ed.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214681-0e37c658-07b2-4ed9-90ae-a6f797f8aeb8.png" ></td>
+        </tr>
+  
+</table>
 
+### App ScreenShots Of Admin side.
+* Admin panel allows admin to add new categories and products in thier respective categories.
+* It also allows to add offers ,advertisements cards.
+
+<table>
+        <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214762-dc040096-b14f-4354-8d4a-d4f92273054d.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214778-d10d3bb2-7c61-4adf-a832-15330a9132a8.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214809-c2a0e136-d571-4235-9d55-815d5b70934d.png" ></td>
+        </tr>
+     <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214848-5833eb9c-0171-4fef-9bb9-ec54a01616d6.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214884-2b93928a-3c86-43db-a35d-d20085f1ca5c.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214905-3391538a-5196-4044-8b19-a32f915e98b8.png" ></td>
+        </tr>
+</table>
 
 
 ## Maintainers and Developers
