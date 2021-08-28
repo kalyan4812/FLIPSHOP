@@ -19,7 +19,7 @@ FLIPSHOP is an e-commerce android application .It uses Firebase as backend to st
 
  
 
-The app is developed using native android(Java).App follows clean code strategy.
+The app is developed using native android(Java).It is tightly coupled as it was developed as a project to learn Android Development.
 
 ### App ScreenShots Of Client side.
 
