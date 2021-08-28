@@ -16,6 +16,7 @@ FLIPSHOP is an e-commerce android application .It uses Firebase as backend to st
  - [Firebase UI](https://github.com/firebase/FirebaseUI-Android)
  - [Material Design](https://material.io/develop/android)
  
+![screenshot_18](https://user-images.githubusercontent.com/68738102/131213752-53af20e1-505d-432b-8dee-ffde539e1dc0.png)
  
 
 The app is developed using native android(Java).App follows clean code strategy.
@@ -28,22 +29,22 @@ The app is developed using native android(Java).App follows clean code strategy.
 
 <table>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/131212761-64e3634d-c1a4-48be-8883-982d174dc06d.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/131212806-373264f3-9b04-491f-9733-aa4fa8068c8e.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/131212822-2d26ab8c-a6de-42d1-ac8e-1f9b053e06b4.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131213769-dc8d57d0-0ab4-48ea-9891-697457925a73.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131213804-4d994c66-6d86-4c73-b74f-561669516e73.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131213818-33f1e591-cd2f-4b10-be79-9df9fea662e0.png" ></td>
         </tr>
-        
-        
+  
      <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126889309-2cfb2576-5aa6-4a10-8f99-76e2aacdb9fa.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126889358-c150b41d-ef11-44bb-a94a-425abf6f8cbb.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126889336-2f6852c7-070a-435f-9758-b8c2e8d5a3fc.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131213861-ab6f803a-542a-44a5-892c-13a910bb8862.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131213906-7f774fa4-359b-498c-8490-32e070e323f3.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131213999-ec3d3f74-2d2c-45e7-97aa-b0cbf09c046b.png" ></td>
         </tr>
 </table>
 
 
 
 
-## Maintainers and Developers
+## Maintainers and Developers![screenshot_17](https://user-images.githubusercontent.com/68738102/131213751-667b26ed-33e5-4839-8fc2-25ebda14ed97.png)
+
 This repository is owned and maintained by 
  * [Sai Kalyan](https://github.com/kalyan4812)
