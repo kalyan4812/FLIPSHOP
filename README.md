@@ -23,11 +23,10 @@ The app is developed using native android(Java).App follows clean code strategy.
 
 ### App ScreenShots 
 
-* You can get the latest trending news on the news page,you can click on the article to read the complete news and also you can save them if you like the article.
-* You can view the saved articles on the saved page,you can delete your saved articles anytime by swiping.
-* Along with recommended articles ,you can also search for articles you want on the search page and you can read them.
-
-
+* Authentication can be done both using google and email.
+* Home screen slider shows new offers ,adds.
+* Category of items are shown on home screen.
+* You can choose delivery location on top.
 <table>
         <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/131213769-dc8d57d0-0ab4-48ea-9891-697457925a73.png" ></td>
@@ -40,6 +39,27 @@ The app is developed using native android(Java).App follows clean code strategy.
           <td><img src = "https://user-images.githubusercontent.com/68738102/131213999-ec3d3f74-2d2c-45e7-97aa-b0cbf09c046b.png" ></td>
         </tr>
 </table>
+
+* On clicking particular category it opens items related to that category.
+* You can add item to favourites or to cart.
+* From favourites you can also add to cart.
+* Once you click to buy items in cart, it will show billing and then pay bill using any of the UPI-transaction.
+* Order status will be shown in the orders screen.
+* And also you can remove items from favourites or from cart any time.
+
+<table>
+        <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214406-15e01df3-042e-4e86-8252-9edfb18b1b5f.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214448-06513366-0206-4b15-8ef6-cd9e501f39ea.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214475-d444eabd-e5b1-41d5-8900-07981521629a.png" ></td>
+        </tr>
+     <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214505-92965ec9-db8a-470e-8fa7-4fed5027b6d7.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214535-45165bcc-9c18-4d86-9e6f-50e7a16c1f28.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/131214543-01cc8b0e-ace9-48ed-ae6c-5fefae425411.png" ></td>
+        </tr>
+</table>
+
 
 
 
